@@ -17,4 +17,4 @@ jobs:
       run: docker build -t ghcr.io/shyim/devcontainers-php:8.1-fpm ./8.1-fpm
       
     - name: Push the image
-      run: docker build -t ghcr.io/shyim/devcontainers-php:8.1-fpm
+      run: docker push ghcr.io/shyim/devcontainers-php:8.1-fpm
